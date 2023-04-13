@@ -1,57 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=, initial-scale=" />
-    <title>Search by cuisine</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title><h1>Search By Country's Cuisine</h1></title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
   
   </head>
   <body>
-    <nav>
-      <a href="../index.html"><button>Home</button></a>
-    
-    <a href="../pages/cuisine.html"><button class=" btn">Search By Country's Cuisine</button></a>
+    <header>
+      <div class="toggle-btn" onclick="show()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
 
-    <a href="../pages/dishType.html"><button class="btn">Search by dish type</button></a>
-      
-    </nav>
-    <main>
-      <form>
-            <input type="text" id="searchCuisine" placeholder="Search cuisine by country...">
-            <select id="filter">
-<option>"Countries to choose from.."</option>                
-              <option>American</option>
-                <option>Asian</option>
-                <option>British</option>
-                <option>Caribbean</option>
-                <option>Central Europe</option>
-                <option>Chinese</option>
-                <option>Eastern Europe</option>
-                <option>French</option>
-                <option>Indian</option>
-                <option>Italian</option>
-                <option>Japanese</option>
-                <option>Kosher</option>
-                <option>Mediterranean</option>
-                <option>Mexican</option>
-              <option>Middle Eastern</option>
-              <option>Nordic</option>
-              <option>South American</option>
-              <option>South East Asian</option>
-            </select>
-      <button id="search">
-        Search
-      </button>
-      </form
+      <h2>Team Cuisine</h2>
       <section>
-        
+        <form>
+          <input id="searchTerm" type="text" placeholder="Search for recipe by name or by main ingredient...">
+        <button id="btn">Search</button>
 
-        <div class="cuisine-search"></div>
+          
+        </form>
+        
       </section>
+    </header>
+    
+    <div id="sidebar">
+      <ul class="card">
+        <li><a href="index.html">Home</a>
+    </li>
+        <li><a href="pages/cuisine.html">Search By Country's Cuisine</a></li>
+        <li><a href="#">Lunch</a></li>
+        <li><a href="#">Dinner</a></li>    
+        <li><a href="#">Dessert</a></li>
+      </ul>
+    </div>
+    
+    <main>
+      <div class="recipies">
+      <div class="card">
+       
+        <div class="container">
+          <h4 class="title"><b>Garlic and Lemon Pawn Pasta</b></h4>
+        </div>
+      </div>
+      </div>
     </main>
 
-    
- 
-<script src="cuisineScript.js"></script>
+
+		<script>
+      
+	
+		</script>
+    <script src="script.js"></script>
   </body>
 </html>
