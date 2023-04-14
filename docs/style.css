@@ -85,6 +85,17 @@ main {
   max-width: 100%;
 }
 
+#searchTerm{    
+        width: 100%;
+        height: 40%
+        background-color:gainsboro;
+        padding:10px;
+        border:none;
+        outline:none;
+        font-size:1.1rem;
+        display:inline block;
+      }
+
 .recipies {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
