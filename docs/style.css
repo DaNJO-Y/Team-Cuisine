@@ -15,7 +15,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: left;
-  background-color: #8dceb2;
+  background-color: #3b2909;
   color: #fff;
   padding: 20px;
 }
@@ -23,6 +23,7 @@ header {
 header h2 {
   padding-left: 20px;
   margin-top: 0;
+  font-family:Special Elite;
 }
 
 header section {
@@ -35,7 +36,7 @@ header section {
     height: relative;
     width: 220px;
     position: absolute;
-    background-color: #97E3C2;
+    background-color: #3b2909;
     left: -300px;
     transition: .4s;
   }
@@ -57,7 +58,7 @@ header section {
 }
 
 #sidebar ul li:hover{
-  background-color: #8dceb2;
+  background-color: #815306;
 }
 
 ul li:hover a{
@@ -79,10 +80,44 @@ ul li:hover a{
   display: block;
   margin: 4px;
 }
+body{
+  background-image:url('food-background.jpg');
+  
+}
+.sbox{
+  width:100%;
+  height:100vh;
+  
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+form{
+  background:#fff;
+  width:600px;
+  height:55px;
+  display:flex;
+}
+form input{
+  flex:1;
+  border:none;
+  outline:none;
+}
+
+form button{
+  background:#df5c0a;
+  padding:10px 50px;
+  border:none;
+  outline:none;
+  color:white;
+  letter-spacing:1px;
+  cursor:pointer;
+  
+}
 nav{
   width:100%;
   height: 80px;
-  background-color:#85A69D;
+  background-color:#df5c0a;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
@@ -91,51 +126,55 @@ nav{
   
 }
 .fbtn {
-  background-color: #a4af69;
+  background-color: #b6570e;
   border: none;
   color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1rem;
+  font-size: 1.3rem;
+  font-family:Luckiest Guy;
   margin: 4px 2px;
   cursor: pointer;
 }
 
 .sbtn {
-  background-color: #a4af69;
+  background-color: #b6570e;
   border: none;
   color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1rem;
+  font-size: 1.3rem;
+  font-family:Luckiest Guy;
   margin: 4px 2px;
   cursor: pointer;
 }
 .tbtn {
-  background-color: #a4af69;
+  background-color: #b6570e;
   border: none;
   color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1rem;
+  font-size: 1.3rem;
+  font-family:Luckiest Guy;
   margin: 4px 2px;
   cursor: pointer;
 }
 .ftbtn {
-  background-color: #a4af69;
+  background-color: #b6570e;
   border: none;
   color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1rem;
+  font-size: 1.3rem;
+  font-family:Luckiest Guy;
   margin: 4px 2px;
   cursor: pointer;
 }
@@ -161,6 +200,7 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  background-color:transparent;
 }
 
 .recipies .card {
@@ -172,6 +212,7 @@ main {
   margin: 0 auto;
   padding: 3rem 2rem;
   width: 100%;
+  background-color:#EEEEDB;
 }
 
 .card .img {
