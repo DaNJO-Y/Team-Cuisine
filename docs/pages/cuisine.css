@@ -127,9 +127,14 @@ main {
 
   form{
     width:90%;
-    max-width:400px;
+    max-width:200px;
     margin:20px auto;
     background-color: #8dceb2;
+    box-shadow: 0 4px 8px 0
+    rgba(0,0,0,.2);
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
   }
 
   form-input{

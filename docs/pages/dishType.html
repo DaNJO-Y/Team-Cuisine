@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=" />
-    <title>Search by cuisine</title>
+    <title>Search by type of dish</title>
     <link href="dishType.css" rel="stylesheet" type="text/css" />
   
   </head>
@@ -15,11 +15,9 @@
         <span></span>
       </div>
 
-      <h2>Search by Cuisine</h2>
+      <h2>Search by Type of dish</h2>
       <section>
         
-
-        <div class="cuisine-search"></div>
       </section>
     </header>
 
@@ -28,39 +26,45 @@
         <li><a href="../index.html">Home</a>
     </li>
         <li><a href="../pages/cuisine.html">Search By Country's Cuisine</a></li>
-        <li><a href="#">Dinner</a></li>    
-        <li><a href="#">Dessert</a></li>
+        <li><a href="../pages/dishType.html">Search by type of dish</a></li>   
       </ul>
     </div>
     
     <main>
+
       <form>
-  <label for="Countries">Choose a country:</label>
-  <select name="Countries" id="Countries">
-    <option value="American">American</option>                
-    <option value="Asian">Asian</option>
-                <option value="British">British</option>
-                <option value="Caribbean">Caribbean</option>
-                <option value="Central Europe">Central Europe</option>
-                <option value="Chinese">Chinese</option>
-                <option value="Eastern Europe">Eastern Europe</option>
-                <option value="French">French</option>
-                <option value="Indian">Indian</option>
-                <option value="Italian">Italian</option>
-                <option value="Japanese">Japanese</option>
-                <option value="Kosher">Kosher</option>
-                <option value="Mediterranean">Mediterranean</option>
-                <option value="Mexican">Mexican</option>
-              <option value="Middle Eastern">Middle Eastern</option>
-              <option value="Nordic">Nordic</option>
-              <option value="South America">South American</option>
-              <option value="South East Asian">South East Asian</option>
-    
-  </select>
-  <br><br>
-  <input type="submit" value="Submit">
-</form>
-  
+            <input type="text" id="searchDishType" placeholder="Search cuisine by diet...">
+            
+      <button id="search">
+        Search
+      </button>
+      </form
+
+      <section>
+               <details>
+                   <summary>Choose from:</summary>
+                   <ul>
+                    <li>Biscuits and cookies</li>
+                    <li>Bread</li>
+                     <li>Cereals</li>
+                     <li>Condiments and sauces</li>
+                     <li>Desserts</li>
+                     <li>Drinks</li>
+                     <li>Main course</li>
+                     <li>Pancake</li>
+                     <li>Preps</li>
+                    <li>Preserve</li>
+                     <li>Salad</li>
+                     <li>Sandwiches</li>
+                     <li>Side dish</li>
+                     <li>Soup</li>
+                     <li>Starter</li>
+                     <li>Sweets</li>
+                    
+                </ul>
+               </details>
+            </section>
+      
     <div class="recipies">
   
       </div>

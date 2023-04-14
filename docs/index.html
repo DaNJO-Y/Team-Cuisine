@@ -26,12 +26,17 @@
         <li><a href="index.html">Home</a>
     </li>
         <li><a href="pages/cuisine.html">Search By Country's Cuisine</a></li>
-        <li><a href="#">Lunch</a></li>
-        <li><a href="#">Dinner</a></li>    
-        <li><a href="#">Dessert</a></li>
+        <li><a href="pages/dishType.html">Search by type of dish</a></li>
       </ul>
     </div>
-    
+
+    <nav>
+      <button class="fbtn" onclick="getLowC()">Low Carb main courses</button>
+
+    <button class="sbtn" onclick="getLf()">Low fat Desserts</button>
+    <button class="tbtn" onclick="getKeto()">Keto meals</button>
+    <button class="ftbtn" onclick="getGluten()">Gluten free meals</button>
+    </nav>
     <main>
       <form>
           <input id="searchTerm" type="text" placeholder="Search for recipe by name or by main ingredient...">
