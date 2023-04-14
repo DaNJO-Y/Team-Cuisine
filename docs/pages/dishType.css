@@ -185,6 +185,16 @@ footer p{
   .recipies {
     grid-template-columns: 1fr;
   }
+
+  h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .sbox {
+    padding: 20px;
+  }
+  
 }
 
   .view-button{
