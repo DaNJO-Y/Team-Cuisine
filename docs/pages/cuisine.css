@@ -161,6 +161,12 @@ main {
   text-align: center;
 }
 
+footer img{
+  width: 2%;
+  height:2%;
+  border-radius:2px
+}
+
 @media screen and (max-width: 768px){
   .recipies {
     grid-template-columns: 1fr;
