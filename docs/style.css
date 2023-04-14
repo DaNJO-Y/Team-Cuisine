@@ -59,6 +59,7 @@ header section {
 
 #sidebar ul li:hover{
   background-color: #815306;
+  cursor:pointer;
 }
 
 ul li:hover a{
@@ -87,7 +88,6 @@ body{
 .sbox{
   width:100%;
   height:100vh;
-  
   display:flex;
   align-items:center;
   justify-content:center;
@@ -236,4 +236,9 @@ main {
   .recipies {
     grid-template-columns: 1fr;
   }
+}
+
+p{
+  font-size: 1.3rem;
+  font-family:Times new roman;
 }

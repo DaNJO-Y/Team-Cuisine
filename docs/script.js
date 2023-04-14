@@ -46,11 +46,11 @@ function genHtml2(results){
     <div class="title">
     <h1>${res.recipe.label}</h1>
     
-    <p>Style of cuisine:${res.recipe.cuisineType}</p>
-    <p>Style of Dish:${res.recipe.dishType}</p>
-    <p>Type of diet:${res.recipe.dietLabels}</p>
-    <p>Calories:${res.recipe.calories}</p>
-    <p>Yield:${res.recipe.yield}</p>
+    <p>Style of cuisine: ${res.recipe.cuisineType}</p>
+    <p>Style of Dish: ${res.recipe.dishType}</p>
+    <p>Type of diet: ${res.recipe.dietLabels}</p>
+    <p>Calories: ${res.recipe.calories}</p>
+    <p>Yield: ${res.recipe.yield}</p>
     <p>Ingredients</p>
     `
       let ingredientArr=res.recipe.ingredientLines;
