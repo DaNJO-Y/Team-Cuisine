@@ -2,6 +2,20 @@ function show(){
   document.getElementById('sidebar').classList.toggle('active');
 }
 
+const buttonContainer = document.querySelector('.button-container');
+
+function handleResize() {
+  if (window.innerWidth <= 768) {
+    buttonContainer.classList.add('small-screen');
+  } else {
+    buttonContainer.classList.remove('small-screen');
+  }
+}
+
+window.addEventListener('resize', handleResize);
+handleResize();
+
+
 const searchForm=document.querySelector('form');
 const searchResultDiv=document.querySelector('.recipies');
 const homeScreen=document.querySelector('.home');
