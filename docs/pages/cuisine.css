@@ -178,7 +178,7 @@ footer p{
   font-size:1.2rem;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   .recipies {
     grid-template-columns: 1fr;
   }

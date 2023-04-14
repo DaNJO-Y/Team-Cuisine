@@ -181,7 +181,7 @@ footer p{
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   .recipies {
     grid-template-columns: 1fr;
   }
@@ -190,11 +190,10 @@ footer p{
     margin-top: 20px;
     margin-bottom: 10px;
   }
-  
+
   .sbox {
     padding: 20px;
   }
-  
 }
 
   .view-button{
