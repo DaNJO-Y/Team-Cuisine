@@ -87,7 +87,7 @@ main {
 
 .recipies {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
@@ -103,7 +103,8 @@ main {
 }
 
 .card .img {
-  height: 50%;
+  width: 100%;
+  height: 80%;
   border-radius: 5px 5px 0 0;
 }
 
@@ -112,7 +113,7 @@ main {
 }
 
 .card .title {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #000;
   margin-bottom: 3rem;
   text-align: center;
@@ -137,7 +138,7 @@ main {
     padding: 10px;
     border: none;
     outline:none;
-    font-size:2rem;
+    font-size:5rem;
     display:inline-block;
   }
 
