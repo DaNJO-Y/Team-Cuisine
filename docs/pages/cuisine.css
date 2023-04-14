@@ -83,11 +83,12 @@ ul li:hover a{
 }
 
 body{
-  background-image:url('food-background.jpg');
+  /*background-image:url('food-background.jpg');*/
 }
 
 .sbox{
-  width:100%;
+  width:600px;
+  margin: 0 auto;
   height:60vh;
   display:flex;
   align-items:center;
@@ -183,16 +184,17 @@ footer p{
     grid-template-columns: 1fr;
   }
   
-        h2 {
-          margin-top: 20px;
-          margin-bottom: 10px;
-        }
-  
-        .sbox {
-          padding: 20px;
-        }
-  
+  main {
+    margin-left: 0;
+  }
+
+  .sbox{
+    font-size: 0.8rem;
+    margin-top: 10px;
+  }
 }
+
+
 
   .view-button{
     text-decoration:none;
