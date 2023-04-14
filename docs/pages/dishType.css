@@ -163,6 +163,24 @@ form button{
   text-align: center;
 }
 
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  background-color: #3b2909;
+  color: #fff;
+  padding: 20px;
+}
+
+footer p{
+  padding-left: 20px;
+  margin-top: 0;
+  text-align:center;
+  font-family:Special Elite;
+  font-size:1.2rem;
+}
+
+
 @media screen and (max-width: 768px){
   .recipies {
     grid-template-columns: 1fr;
