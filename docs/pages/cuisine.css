@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  }
+}
 
 html {
   font-size: 62.5%;
@@ -85,7 +85,7 @@ ul li:hover a{
 body{
   background-image:url('food-background.jpg');
 }
-/*
+
 .sbox{
   width:600px;
   margin: 0 auto;
@@ -94,7 +94,6 @@ body{
   align-items:center;
   justify-content:center;
 }
-*/
 
 form{
   background:#fff;
@@ -102,9 +101,11 @@ form{
   height:55px;
   display:flex;
 }
+
 form label{
   font-size:1.8rem;
 }
+
 form option{
   flex:1;
   font-size:1rem;
@@ -195,9 +196,7 @@ footer p{
   }
 }
 
-
-
-  .view-button{
+.view-button{
     text-decoration:none;
     text-align:center;
     width:50px;
@@ -207,4 +206,4 @@ footer p{
     font-size:0.8rem;
     margin-top:20px;
     align-self:flex-start;
-  }
+}
